@@ -46,7 +46,9 @@ pip install numpy scipy matplotlib notebook
 
 The simulation may take approximately 1–5 minutes to run. Once completed, it will generate output visualization as shown below:
 
-![Output Image](/Simulation_Output.png)
+<div align="center">
+  <img src="Simulation_Output.png" alt="Simulation_Output" width="300">
+</div>
 
 
 
