@@ -1,32 +1,51 @@
 # 1. Introduction
 
-The **Model.ipynb** is a python notebook that contains the numerical solution of a system of ordinary differential equations developed in **"A dynamic model of calcium frequency modulation by mitochondrial superoxide"** available at BioRxiv: sd.com
 
+The **Model.ipynb** notebook provides a numerical solution to a system of ordinary differential equations developed in the study:  
+**"A dynamic model of calcium frequency modulation by mitochondrial superoxide"**  
+Available on bioRxiv: [sd.com](https://sd.com)
 
-# 2. Prerequisites to run the code
+This simulation explores how mitochondrial superoxide influences calcium dynamics through a proposed frequency modulation mechanism.
 
-1. **Python3** (Can be Installed from python.org. Ensure to **"Add Python to PATH"**)
-2. Four python packeges:
-    - **numpy**
-    - **scipy**
-    - **matplotlib**
-    - **notebook**
+---
 
-All python packages can be installed by running this script in cmd or terminal:
-`pip install [package-name]`
+# 2. Prerequisites
 
-for example:
-`pip install numpy`
+### Required Software
+- **Python 3** (Download from [python.org](https://www.python.org). During installation, make sure to check **"Add Python to PATH"**.)
 
-# 3. How to run the code
+### Required Python Packages
+- `numpy`  
+- `scipy`  
+- `matplotlib`  
+- `notebook`  
 
-After installing all packages, first run the **notebook** from cmd:
-`C:\Users\user1> notebook`
+You can install these packages via pip in a terminal or cmd:
 
-Then go to the folder containing **Model.ipynb** then open it.
+```bash
+pip install numpy scipy matplotlib notebook
+```
 
-Run the code by clicking ***Play Botton***
+---
+
+# 3. How to Run the Notebook
+
+1. Open a terminal or cmd
+2. Launch the Jupyter Notebook environment:
+
+   ```bash
+   jupyter notebook
+   ```
+3. In the browser window that opens, navigate to the folder containing **Model.ipynb** and open it
+
+4. Run the code cells by clicking the Run (▶) button or pressing **Shift + Enter**
+
+---
 
 # 4. Output
 
-Running the code takes 1-5 minutes and yields the below image:
+The simulation may take approximately 1–5 minutes to run. Once completed, it will generate output visualizations as shown below:
+![Output Image](/Simulation_Output.png)
+
+
+
