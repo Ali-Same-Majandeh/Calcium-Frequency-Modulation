@@ -3,7 +3,7 @@
 
 The **Model.ipynb** notebook provides a numerical solution to a system of ordinary differential equations developed in the study:  
 **"A dynamic model of calcium frequency modulation by mitochondrial superoxide"**  
-Available on bioRxiv: [doi.org/10.1101/2025.07.28.667258](https://doi.org/10.1101/2025.07.28.667258)
+Available on bioRxiv: [doi.org/10.1101/2025.07.28.667258](https://www.biorxiv.org/content/10.1101/2025.07.28.667258v1)
 
 This simulation explores how mitochondrial superoxide influences calcium dynamics through a proposed frequency modulation mechanism.
 
@@ -49,6 +49,7 @@ The simulation may take approximately 1–5 minutes to run. Once completed, it w
 <div align="center">
   <img src="Simulation_Output.png" alt="Simulation_Output" width="600">
 </div>
+
 
 
 
